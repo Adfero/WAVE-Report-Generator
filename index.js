@@ -23,7 +23,7 @@ function generateReport(domain) {
     if (err) {
       handleError(err);
     } else {
-      var generator = new ReportGenerator(config,domain);
+      var generator = new ReportGenerator(config,domain,formatter);
       generator.run(function(err) {
         if (err) {
           handleError(err);
