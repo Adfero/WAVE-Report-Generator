@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Adfero/WAVE-Report-Generator/issues"
   },
-  "homepage": "https://github.com/Adfero/WAVE-Report-Generator"
+  "homepage": "https://github.com/Adfero/WAVE-Report-Generator",
+  "dependencies": {
+    "async": "^1.5.2"
+  }
 }
