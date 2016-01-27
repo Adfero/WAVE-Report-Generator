@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "Uses the WAVE API to generate a report on a site given its sitemap.xml file.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "preferGlobal": "true",
+  "bin": {
+    "wave-report": "index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Adfero/WAVE-Report-Generator.git"
   },
-  "author": "",
+  "author": "John Jones <jjones@adfero.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Adfero/WAVE-Report-Generator/issues"
